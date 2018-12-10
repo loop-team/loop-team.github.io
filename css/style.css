@@ -1,0 +1,306 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+
+/* Full Page Carousel itself*/
+html,
+body,
+header,
+.carousel {
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top-nav-collapse {
+  background-color: #1C2331;
+}
+
+/* carousel */
+.carousel-inner .carousel-item .img-source {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-inner .carousel-item .img-source::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000006e;
+}
+
+.carousel-inner .carousel-item .img {
+  background-image: url(../img/img1.jpeg);
+}
+
+.carousel-inner .carousel-item .img2 {
+  background-image: url(../img/img2.jpeg);
+}
+
+.carousel-inner .carousel-item .img3 {
+  background-image: url(../img/img3.jpeg);
+}
+
+section {
+  padding: 50px 0;
+}
+
+.sec-lead {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+section#courses {
+  background-color: #eee;
+}
+
+section#courses .courses-container .col-lg-3 {
+  margin: 20px 0;
+}
+
+section#courses .courses-container .card {
+  height: 100%;
+}
+
+section#courses .courses-container .card p {
+  text-align: center;
+}
+
+section#courses .courses-container .card h5 {
+  text-align: center;
+}
+
+section#courses .courses-container .card .card-img-top {
+  height: 150px;
+}
+
+section#courses .courses-container .card .card-btn {
+  text-align: center;
+}
+
+section#courses .courses-container .card:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+section#achievements {
+  background-image: url("../img/img4.jpeg");
+  min-height: 60vh;
+  background-color: #e2e2e2;
+  background-size: cover;
+  background-position: 60% 20%;
+  position: relative;
+}
+
+section#achievements::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+
+section#achievements div.card.hidden {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+section#achievements div.card.hidden .sec-lead {
+  color: #fff;
+}
+
+section#achievements .achievements {
+  margin-top: 30px;
+  text-align: center;
+}
+
+section#achievements .achievements h5 {
+  font-size: 1.3rem;
+}
+
+section#achievements .achievements h1 {
+  font-weight: bold;
+}
+
+section#achievements .achievements .icon, section#achievements .achievements img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+section#achievements .achievements .col-lg-3:nth-child(2) .icon {
+  background-color: #e1e976;
+}
+
+section#achievements .achievements i {
+  font-size: 3rem;
+}
+
+section#achievements .achievements .text {
+  margin-top: 20px;
+  color: #eee;
+}
+
+section#achievements .achievements .col-lg-3 {
+  margin-bottom: 50px;
+}
+
+section#achievements.members {
+  background-color: #e0d9d9;
+}
+
+section#testimonials {
+  background-image: url("../img/img8.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 4;
+}
+
+section#testimonials .testimonial-card hr {
+  width: 40%;
+  margin: auto;
+}
+
+section#testimonials .testimonial-card .card {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#testimonials .testimonial-card .card .msg-container .img-holder {
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+section#testimonials .testimonial-card .card .msg-container .img-holder img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+section#testimonials .testimonial-card .card .msg-container .msg {
+  text-align: center;
+}
+
+section#testimonials .testimonial-card .card .msg-container .msg i {
+  opacity: 0.7;
+}
+
+section#testimonials::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000006e;
+}
+
+section#members .members {
+  margin-top: 50px;
+  text-align: center;
+}
+
+section#members .members .col-lg-3 {
+  margin-bottom: 50px;
+}
+
+section#members .icon {
+  margin: auto;
+  background-color: red;
+  border-radius: 50%;
+  width: 160px;
+  height: 150px;
+}
+
+section#members .icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+section#members .text {
+  margin-top: 20px;
+}
+
+section#members .text h5.lead {
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+section#contact-us {
+  background-image: url("../img/img6.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+section#contact-us::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000006e;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331;
+  margin-top: 0 !important;
+}
+
+.page-footer .pb-4 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

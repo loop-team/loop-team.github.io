@@ -1,0 +1,135 @@
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+html,
+body,
+header,
+.carousel {
+  height: 100%; }
+
+.carousel {
+  height: 100%; }
+
+.carousel .carousel-inner {
+  height: 100%; }
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* carousel */
+.carousel-inner .carousel-item .img-source {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  position: relative; }
+  .carousel-inner .carousel-item .img-source::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006e; }
+.carousel-inner .carousel-item .img {
+  background-image: url(../img/img1.jpeg); }
+.carousel-inner .carousel-item .img2 {
+  background-image: url(../img/img2.jpeg); }
+.carousel-inner .carousel-item .img3 {
+  background-image: url(../img/img3.jpeg); }
+
+section {
+  padding: 50px 0; }
+
+.sec-lead {
+  font-size: 2rem;
+  text-align: center; }
+
+section#courses {
+  background-color: #eee; }
+  section#courses .courses-container .col-6 {
+    margin: 20px 0; }
+  section#courses .courses-container .card {
+    height: 100%; }
+    section#courses .courses-container .card p {
+      text-align: center; }
+    section#courses .courses-container .card h5 {
+      text-align: center; }
+    section#courses .courses-container .card .card-img-top {
+      height: 150px; }
+    section#courses .courses-container .card .card-btn {
+      text-align: center; }
+    section#courses .courses-container .card:hover {
+      cursor: pointer;
+      transform: translateY(-3px);
+      transition: all 0.4s ease-out; }
+
+section#testimonials {
+  background-image: url("../img//img (2).jpeg");
+  background-size: cover;
+  position: relative;
+  z-index: 4; }
+  section#testimonials .testimonial-card hr {
+    width: 40%;
+    margin: auto; }
+  section#testimonials .testimonial-card .card {
+    padding: 20px;
+    height: 360px;
+    margin: auto;
+    transition: all 3s; }
+    section#testimonials .testimonial-card .card .msg-container .img-holder {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 20px auto;
+      background-color: #c7c1c1; }
+    section#testimonials .testimonial-card .card .msg-container .msg {
+      text-align: center; }
+  section#testimonials::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006e; }
+
+section#achievements {
+  min-height: 60vh;
+  background-color: #e2e2e2; }
+  section#achievements .achievements {
+    margin-top: 50px;
+    text-align: center; }
+    section#achievements .achievements h5 {
+      font-size: 1.3rem; }
+    section#achievements .achievements .icon {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      background-color: gold;
+      border-radius: 50%; }
+    section#achievements .achievements .text {
+      margin-top: 20px; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important; } }
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+/*# sourceMappingURL=style.min.css.map */
